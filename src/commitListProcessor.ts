@@ -19,4 +19,4 @@ const lines = text.split('\n')
     .map(line => line.trim())
     .map(processRevisionString);
 
-fs.writeFileSync('text.txt', lines.join('\n'));
+fs.writeFileSync(filePath, lines.join('\n'));
