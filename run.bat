@@ -1,0 +1,1 @@
+node built/app.js --workingDirectory=C:\Dev\qbrx-influxdb-importer-trial
